@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <center>
+      <p>Число1: <input id="number1" /></p>
+      <p>Число2: <input id="number2" /></p>
+      <div>
+        <button onclick="but='plus'">+</button>
+        <button onclick="but='minus'">-</button>
+        <button onclick="but='multiply'">x</button>
+        <button onclick="but='divide'">:</button>
+      </div>
+      <br />
+      <button onclick="results()">Результат</button>
+      <br />
+      <p id="res"></p>
+      <br />
+      <button onclick="del()">Очистить</button>
+    </center>
+    <script src="calculator.js"></script>
+  </body>
+</html>
